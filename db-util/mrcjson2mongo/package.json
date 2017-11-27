@@ -1,0 +1,13 @@
+{
+  "name": "pergamum-mrcjson-mongo",
+  "version": "0.0.1",
+  "description": "Library of Pergamum: json-mrc 2 mongo import module",
+  "main": "mrcjson-mongo.js",
+  "dependencies" : [
+    "mongodb",
+    "file-api"
+  ],
+  "author": "anton",
+  "license": "MIT"
+}
+

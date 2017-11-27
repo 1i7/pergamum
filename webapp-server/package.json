@@ -1,0 +1,14 @@
+{
+  "name": "pergamum-webapp-server",
+  "version": "0.1.0",
+  "description": "Pergamum webapp server project",
+  "main": "webapp-server.js",
+  "dependencies": {
+    "finalhandler": "^1.1.0",
+    "http-server": "^0.10.0",
+    "mongodb": "^2.2.33",
+    "serve-static": "^1.13.1"
+  },
+  "author": "sadr0b0t",
+  "license": "AGPLv3"
+}

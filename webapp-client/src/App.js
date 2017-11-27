@@ -15,7 +15,7 @@ import {
 import keycode from 'keycode';
 
 import {ScaleLoader} from 'halogenium';
-import CircularProgress from 'material-ui/CircularProgress';
+//import CircularProgress from 'material-ui/CircularProgress';
 
 const btnStyle = {
   margin: 12

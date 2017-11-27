@@ -66,7 +66,12 @@ var json2mongo = function(db_url, lib, file, drop_lib, callback) {
 
 var libs = [
     // Петербург, Национальная российская библиотека (NLR)
-    {lib: 'lib-spb-nlr-test1-mrcjson', file: "./libs/spb-nlr/spb-nlr-test1.json", drop_lib: true},
+//    {lib: 'lib-spb-nlr-test1-mrcjson', file: "./libs/spb-nlr/spb-nlr-test1.json", drop_lib: true},
+
+    // файлы по 50000 записей: x50000
+    {lib: 'lib-spb-nlr-mrcjson', file: "../../libs/spb-nlr/x50000/json/spb-nlr-0001.json", drop_lib: true},
+    {lib: 'lib-spb-nlr-mrcjson', file: "../../libs/spb-nlr/x50000/json/spb-nlr-0002.json", drop_lib: false},
+    {lib: 'lib-spb-nlr-mrcjson', file: "../../libs/spb-nlr/x50000/json/spb-nlr-0003.json", drop_lib: false},
 
     // Москва, Российская государственная библиотека (RSL)
     

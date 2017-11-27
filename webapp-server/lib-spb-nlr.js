@@ -68,6 +68,12 @@ var extract_spb_nlr_mrcjson = function(item) {
 
 // Российская национальная библиотека, Санкт-Петербург (NLR)
 var lib_spb_nlr = {
+    db_collection: "lib-spb-nlr-mrcjson",
+    find: find_spb_nlr_mrcjson,
+    extract: extract_spb_nlr_mrcjson
+}
+
+var lib_spb_nlr_test1 = {
     db_collection: "lib-spb-nlr-test1-mrcjson",
     find: find_spb_nlr_mrcjson,
     extract: extract_spb_nlr_mrcjson

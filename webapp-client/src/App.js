@@ -14,7 +14,7 @@ import {
 
 import keycode from 'keycode';
 
-///var Loader = require('halogen/PacmanLoader');
+import {ScaleLoader} from 'halogenium';
 import CircularProgress from 'material-ui/CircularProgress';
 
 const btnStyle = {
@@ -327,7 +327,8 @@ class SearchWidget extends React.Component {
         return (
             <div style={{marginLeft: 90, marginTop: 20, width: 800}}>
                 {this.state.in_progress ?
-                    <CircularProgress size={30} style={{position: "fixed", left: 50, top: 80}} /> : ""
+                    /*<CircularProgress size={30} style={{position: "fixed", left: 50, top: 80}} /> */
+                    <ScaleLoader color="black" size="10px" style={{position: "fixed", left: 40, top: 70}}/>: ""
                 }
                 
                 <div style={{position: "fixed", left: 90, top: 0, width:'100%', background: 'white'}}>
